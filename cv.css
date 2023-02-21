@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+main{
+    display: flex;
+}
+.about__me{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;   
+    align-items: center;
+    margin-bottom: 70px;
+}
+.header__Avatar{
+    width: 300px;
+    border-radius: 50%;
+}
+.sycle{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: linear-gradient( 45deg ,#ff0505dd, #4b05ed);
+}
+.header__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    background-color: #ebf703;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+.education{
+    margin-left: 100px;
+    width: 800px;
+    padding: 10px 0;
+}
+h2{
+    margin-left: 10px;
+
+}
+.element1{
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+    border-radius: 5px;
+    background: linear-gradient( 45deg ,#ff0505dd, #4b05ed);
+}
+
+.experience{
+    margin-left: 100px;
+    width: 800px;
+    padding: 10px 0;
+
+}
+.description{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 30px 20px;
+}
+.description__item1{
+    width: 35%;
+}
+.description__item2{
+    width: 65%;
+}
+.contacts__skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    background-color: #191a1a;
+    border-radius: 15px;
+    color: #FFFFFF;
+
+}
+.contact{
+    margin: 15px 0;
+    font-size: 20px;
+}
+.contact_item{
+    margin: 15px 0;
+}
+.telegramm__style{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.skill{
+    margin: 15px 0;
+    font-size: 20px;
+}
+.skill__item{
+    margin: 15px 0;
+}
+.year{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer__block{
+    height: 100px;
+    background: linear-gradient(-45deg, #ff0505dd, #06de31);
+
+}
